@@ -1,46 +1,43 @@
-# LAB - 
+# LAB - 00
 
-## Project Name
+## Proof of Life server
 
-### Author: Student/Group Name
+### Author: Meron 
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/meron-401n14/lab-00/pull/1)
+* [travis](https://travis-ci.com/meron-401n14/lab-00)
+* [front-end](https://meron-lab-00.herokuapp.com/) 
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [jsdoc](https://meron-lab-00.herokuapp.com/docs/) 
+
 
 ### Modules
-#### `modulename.js`
+#### pos.js
+
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `isAlive(dead)-> boolean`
+Return true/false to indicate how the server works
 
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns a boolean.
+* Endpoint: `/docs`
+  * Returns a JSDoc Documentaion Pages.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Unit Tests: `npm test`
+* Lint Tests: `npm run lint`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML Diagram](whiteboard.jpg)
+
