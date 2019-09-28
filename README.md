@@ -1,4 +1,4 @@
-# LAB - 00
+# LAB -00
 
 ## Proof of Life server
 
